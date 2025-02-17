@@ -1,0 +1,23 @@
+{
+  "projects": [
+    {
+      "slug": "project-from-git-acme-mappings1",
+      "coordinates": [
+        "com.git.acme.mappings1:resource"
+      ],
+      "repositoryUrl": "https://github.com/acme/project-name",
+      "rewrite": {
+        "1.1.x": {
+          "nextRewrite": "1.2.x",
+          "recipes": [
+          ]
+        },
+        "1.2.x": {
+          "recipes": [
+          ]
+        }
+      }
+    }
+  ]
+}
+
