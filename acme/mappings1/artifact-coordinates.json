@@ -8,7 +8,9 @@
       "repositoryUrl": "https://github.com/acme/project-name",
       "rewrite": {
         "1.1.x": {
-          "nextRewrite": "1.2.x",
+          "nextRewrite": {
+            "version": "1.2.x"
+          },
           "recipes": [
           ]
         },
